@@ -3,10 +3,10 @@
 	// this will avoid mysql_connect() deprecation error.
 //	error_reporting( ~E_DEPRECATED & ~E_NOTICE );
 //
-//	define('DBHOST', 'mpwebservicesnet.ipagemysql.com');
-//	define('DBUSER', 'drsho');
-//	define('DBPASS', 'metcs633');
-//	define('DBNAME', 'drsho');
+//	define('DBHOST', ' ');
+//	define('DBUSER', ' ');
+//	define('DBPASS', ' ');
+//	define('DBNAME', ' ');
 //
 //	$conn = mysqli_connect(DBHOST,DBUSER,DBPASS,DBNAME);
 //	//$dbcon = mysqli_select_db(DBNAME);
@@ -23,10 +23,10 @@
 session_start();
 
 class DBController {
-    private $host = "mpwebservicesnet.ipagemysql.com";
-    private $user = "drsho";
-    private $password = "metcs633";
-    private $database = "drsho";
+    private $host = " ";
+    private $user = " ";
+    private $password = " ";
+    private $database = " ";
     private $conn;
 
     function __construct() {
